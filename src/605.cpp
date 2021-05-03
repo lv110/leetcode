@@ -18,6 +18,7 @@ public:
                 end=i;
                 state=0;
                 if((end-start-2)>=3){                    
+                
                 }
             }
         }
@@ -26,5 +27,7 @@ public:
 };
 int main(){       
     vector<int> k = {10};   
+    vector <int> a = {1,2,3,4,5};
+    Solution().canPlaceFlowers(a,10);
     return 0;
 }
